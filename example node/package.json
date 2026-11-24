@@ -1,0 +1,19 @@
+{
+  "name": "cactus-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "binaryName": "cactus-node",
+    "targets": ["aarch64-apple-darwin", "x86_64-unknown-linux-gnu"]
+  },
+  "scripts": {
+    "build": "napi build --platform --release",
+    "test": "node test.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3"
+  }
+}

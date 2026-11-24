@@ -1,0 +1,10 @@
+[package]
+name = "cactus-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Crate non officiel (hxphsts/cactus-rs) : télécharge le moteur au build et les poids au premier lancement.
+cactus-rs = { version = "0.3", features = ["image"] }
+serde_json = "1"
+hound = "3.5"

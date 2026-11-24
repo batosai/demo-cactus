@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Rust
+target/
+
+# Éditeurs
+.idea/
+.vscode/
+
+# Node
+node_modules/
+*.node
